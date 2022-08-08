@@ -40,7 +40,7 @@ export default function SimpleBottomNavigation() {
         }}
       >
         {/* <BottomNavigationAction label="Home" icon={<HomeRoundedIcon />} /> */}
-        <BottomNavigationAction component={Link} to="/trendflix/" label="Trending" icon={<WhatshotIcon />} />
+        <BottomNavigationAction component={Link} to="/trendflix/" label="Home" icon={<HomeRoundedIcon />} />
         <BottomNavigationAction component={Link} to="/trendflix/movies" label="Movies" icon={<MovieRoundedIcon />} />
         <BottomNavigationAction component={Link} to="/trendflix/tv" label="TV Shows" icon={<TvIcon />} />
         <BottomNavigationAction component={Link} to="/trendflix/search" label="Search" icon={<SearchRoundedIcon />} />
