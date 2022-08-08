@@ -18,11 +18,11 @@ function Main(){
         sx={{ flexGrow: 1, width: {xs: '100%', md: `calc(100% - ${drawerWidth}px)` }, }}
       >
         <Routes>
-            <Route path="/" exact element={<Home />}></Route>
-            <Route path="/trending" element={<Trending />}></Route>
-            <Route path="/movies" element={<Movies />}></Route>
-            <Route path="/tv" element={<Series />}></Route>
-            <Route path="/search" element={<Search />}></Route>
+            <Route path="/trendflix/" exact element={<Home />}></Route>
+            <Route path="/trendflix/trending" element={<Trending />}></Route>
+            <Route path="/trendflix/movies" element={<Movies />}></Route>
+            <Route path="/trendflix/tv" element={<Series />}></Route>
+            <Route path="/trendflix/search" element={<Search />}></Route>
         </Routes>
       </Box>
     );
