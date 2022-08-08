@@ -1,0 +1,43 @@
+$primary:#e21221;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+$font-stack: 'Poppins', sans-serif;
+
+.align-center{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.op9{
+    opacity: 0.9;
+}
+.op8{
+    opacity: 0.8;
+}
+.op7{
+    opacity: 0.7;
+}
+.simple-link:hover{
+ text-decoration: underline;
+}
+.container{
+    padding: 80px 5vw 80px 5vw;
+    @media (min-width: 900px){
+    padding: 40px 5vw 40px 5vw;
+
+    }
+}
+.card-grid{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    column-gap: 30px;
+    align-items: flex-start;
+    justify-content: center;
+}
+.MuiListItemButton-root{
+    border-radius: 8px !important;
+}
+.MuiListItemButton-root.Mui-selected {
+    background-color: rgba($color: #fff, $alpha: 0.08) !important;
+    // background: linear-gradient(270deg, #FF4451 0%, #E21221 110.71%) !important;
+}
