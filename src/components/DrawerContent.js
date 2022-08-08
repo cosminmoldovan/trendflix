@@ -63,7 +63,7 @@ function DrawerContent() {
         <List>
           <ListItem>
             <NavLink to="/" style={navLink}>
-              <ListItemButton className="item-btn" data-path="/">
+              <ListItemButton className="item-btn" data-path="/trendflix/">
                 <ListItemIcon sx={iconStyle}>
                   <HomeRoundedIcon />
                 </ListItemIcon>
@@ -74,7 +74,7 @@ function DrawerContent() {
 
           <ListItem>
             <NavLink to="/trending" style={navLink}>
-              <ListItemButton className="item-btn" data-path="/trending">
+              <ListItemButton className="item-btn" data-path="/trendflix/trending">
                 <ListItemIcon sx={iconStyle}>
                   <WhatshotIcon />
                 </ListItemIcon>
@@ -85,7 +85,7 @@ function DrawerContent() {
 
           <ListItem>
             <NavLink to="/movies" style={navLink}>
-              <ListItemButton className="item-btn" data-path="/movies">
+              <ListItemButton className="item-btn" data-path="/trendflix/movies">
                 <ListItemIcon sx={iconStyle}>
                   <MovieRoundedIcon />
                 </ListItemIcon>
@@ -96,7 +96,7 @@ function DrawerContent() {
 
           <ListItem>
             <NavLink to="/tv" style={navLink}>
-              <ListItemButton className="item-btn" data-path="/tv">
+              <ListItemButton className="item-btn" data-path="/trendflix/tv">
                 <ListItemIcon sx={iconStyle}>
                   <TvIcon />
                 </ListItemIcon>
@@ -107,7 +107,7 @@ function DrawerContent() {
 
           <ListItem>
             <NavLink to="/search" style={navLink}>
-              <ListItemButton className="item-btn" data-path="/search">
+              <ListItemButton className="item-btn" data-path="/trendflix/search">
                 <ListItemIcon sx={iconStyle}>
                   <SearchRoundedIcon />
                 </ListItemIcon>
